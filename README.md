@@ -77,9 +77,4 @@ In the sidebar, choose a classifier or upload a UTF-8 test CSV. Download the exa
 | `holdout_metrics.csv` | Six metrics for each classifier on the bundled holdout |
 | `model/*.joblib` | Five saved classifiers and their fitted preprocessing |
 
-## BITS Virtual Lab and submission
 
-1. Open BITS Virtual Lab, transfer your reviewed project to your lab workspace and use the lab terminal to install requirements and run `python train.py`. Launch the app in the lab if the environment supports its browser preview. Capture one genuine screenshot of assignment execution showing the lab context, training command and five-model output.
-2. Create your GitHub repository and push the reviewed project, including the test CSV, metrics, five Joblib files and requirements. Exclude your virtual environment and credentials. Update the README with your repository URL and your own results and observations.
-3. In Streamlit Community Cloud, create an app from that repository and branch, set `app.py` as the entry point, select Python 3.12 under Advanced settings and deploy. Open the resulting URL in a signed-out window and exercise the CSV upload and model dropdown. [Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy)
-4. Assemble a single PDF in this order: clickable GitHub link, clickable live Streamlit link, one genuine BITS Virtual Lab screenshot, and your updated README content. Verify both links in the exported PDF and submit it through the course portal.
